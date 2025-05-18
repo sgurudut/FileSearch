@@ -8,7 +8,7 @@ import sys
 app = FastAPI()
 
 # Initialize OpenAI client
-client = OpenAI(api_key="API_KEY")# chage API key)
+client = OpenAI(api_key= "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")
 
 assistant = client.beta.assistants.create(
     name="Event info assistant",
